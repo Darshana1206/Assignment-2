@@ -12,7 +12,7 @@ object Q5 {
     attendees(tikPrice)*tikPrice
   }
   def cost(tikPrice:Int)={
-    500+attendees(tikPrice)
+    500+3*attendees(tikPrice)
   }
   def profit(tikPrice:Int)={
     revenue(tikPrice)-cost(tikPrice)
